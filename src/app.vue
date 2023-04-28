@@ -9,9 +9,7 @@ export default {
       return title ? `${title} | ${appConfig.title}` : appConfig.title
     },
   },
-  components: {
-    ActiveButton: () => import('./components/atoms/ActiveButton/index.vue'),
-  },
+  components: {},
 }
 </script>
 
